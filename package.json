@@ -1,0 +1,22 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "Implementation of common data structures for practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && mocha 'build/test/**/*.spec.js'"
+  },
+  "author": "Alex Forsyth",
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^13.1.7",
+    "@types/sinon": "^7.5.1",
+    "@types/sinon-chai": "^3.2.3",
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0",
+    "sinon": "^8.0.4",
+    "sinon-chai": "^3.4.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  }
+}
